@@ -1,1 +1,1 @@
-web: gunicorn taskman.wsgi.application
+web: gunicorn taskman.wsgi
