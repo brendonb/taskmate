@@ -1,1 +1,1 @@
-web: gunicorn taskman.wsgi
+web: gunicorn todolist.wsgi
