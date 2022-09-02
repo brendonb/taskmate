@@ -1,1 +1,1 @@
-web: gunicorn todolist.wsgi
+web: gunicorn todolist.wsgi:application  --log-file - --log-level debug
