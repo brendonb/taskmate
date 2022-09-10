@@ -1,1 +1,1 @@
-web: gunicorn taskman.wsgi:application  --log-file - --log-level debug
+web: gunicorn todolist.wsgi:application  --log-file - --log-level debug
